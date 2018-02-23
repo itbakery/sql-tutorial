@@ -613,18 +613,21 @@ wsrep_node_name=&quot;mysql-node3&quot;
     +--------------------+-------+
     1 row in set (0.00 sec)
 
-    mysql -u root -p
-    mysql&gt; SHOW STATUS LIKE &apos;wsrep_cluster_size&apos;;
-    +--------------------+-------+
-    | Variable_name      | Value |
-    +--------------------+-------+
-    | wsrep_cluster_size | 2     |
-    +--------------------+-------+
-    1 row in set (0.00 sec)
 
     mysql&gt; SHOW GLOBAL STATUS LIKE &apos;wsrep_%&apos;;
 
     mysql&gt; SHOW STATUS LIKE &apos;wsrep_cluster_%&apos;;
+</code></pre><p>&#xE08;&#xE32;&#xE01;&#xE19;&#xE31;&#xE49;&#xE19;&#xE43;&#xE2B;&#xE49;&#xE17;&#xE33;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07; mysql-node2, mysql-node3 &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE17;&#xE33;&#xE01;&#xE32;&#xE23;&#xE01;&#xE32;&#xE23; start database</p>
+<pre><code>root@localhost #  systemctl start mysqld
+</code></pre><p>&#xE41;&#xE25;&#xE30;&#xE14;&#xE39;&#xE1C;&#xE25;&#xE44;&#xE14;&#xE49;&#xE17;&#xE35;&#xE48; mysql-node1 &#xE04;&#xE48;&#xE32;&#xE02;&#xE2D;&#xE07; <code>wsrep_cluster_size</code> &#xE08;&#xE30;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE02;&#xE36;&#xE49;&#xE19; &#xE40;&#xE17;&#xE48;&#xE32;&#xE01;&#xE31;&#xE1A;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19; &#xE02;&#xE2D;&#xE07; cluster &#xE17;&#xE35;&#xE48;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE21;&#xE32;</p>
+<pre><code>mysql -u root -p
+mysql&gt; SHOW STATUS LIKE &apos;wsrep_cluster_size&apos;;
++--------------------+-------+
+| Variable_name | Value |
++--------------------+-------+
+| wsrep_cluster_size | 3 |
++--------------------+-------+
+1 row in set (0.00 sec)
 </code></pre>
                                 
                                 </section>
@@ -668,7 +671,7 @@ wsrep_node_name=&quot;mysql-node3&quot;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"mysql-cluster","level":"1.15","depth":1,"next":{"title":"mysql-remoteuser","level":"1.16","depth":1,"path":"mysql-remoteuser.md","ref":"mysql-remoteuser.md","articles":[]},"previous":{"title":"example4-university","level":"1.14","depth":1,"path":"example4-university.md","ref":"example4-university.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"mysql-cluster.md","mtime":"2018-02-21T17:59:15.589Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-23T06:00:21.849Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"mysql-cluster","level":"1.15","depth":1,"next":{"title":"mysql-remoteuser","level":"1.16","depth":1,"path":"mysql-remoteuser.md","ref":"mysql-remoteuser.md","articles":[]},"previous":{"title":"example4-university","level":"1.14","depth":1,"path":"example4-university.md","ref":"example4-university.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"mysql-cluster.md","mtime":"2018-02-23T06:41:16.044Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-23T06:41:43.071Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
