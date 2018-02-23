@@ -1,0 +1,1185 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>postgresql-shell · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="vagrantdev.html" />
+    
+    
+    <link rel="prev" href="postgres.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="relational.html">
+            
+                <a href="relational.html">
+            
+                    
+                    relational
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="normalization.html">
+            
+                <a href="normalization.html">
+            
+                    
+                    normalization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="mysql.html">
+            
+                <a href="mysql.html">
+            
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="postgres.html">
+            
+                <a href="postgres.html">
+            
+                    
+                    postgres
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="postgresql-shell.html">
+            
+                <a href="postgresql-shell.html">
+            
+                    
+                    postgresql-shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="vagrantdev.html">
+            
+                <a href="vagrantdev.html">
+            
+                    
+                    vagrantdev
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="install-mysql-windows.html">
+            
+                <a href="install-mysql-windows.html">
+            
+                    
+                    install-mysql-windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="install-mysql-workbench-win.html">
+            
+                <a href="install-mysql-workbench-win.html">
+            
+                    
+                    install-mysql-workbench-win
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="summary-mysql-command.html">
+            
+                <a href="summary-mysql-command.html">
+            
+                    
+                    summary-mysql-command
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="example1-sampledatabase.html">
+            
+                <a href="example1-sampledatabase.html">
+            
+                    
+                    example1-sampledatabase
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="example2-employee.html">
+            
+                <a href="example2-employee.html">
+            
+                    
+                    example2-employee
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="example3-sale.html">
+            
+                <a href="example3-sale.html">
+            
+                    
+                    example3-sale
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="example4-university.html">
+            
+                <a href="example4-university.html">
+            
+                    
+                    example4-university
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="mysql-cluster.html">
+            
+                <a href="mysql-cluster.html">
+            
+                    
+                    mysql-cluster
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="mysql-remoteuser.html">
+            
+                <a href="mysql-remoteuser.html">
+            
+                    
+                    mysql-remoteuser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="mysql-backup.html">
+            
+                <a href="mysql-backup.html">
+            
+                    
+                    mysql-backup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="normalizationexample.html">
+            
+                <a href="normalizationexample.html">
+            
+                    
+                    normalizationexample
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="workshop-mysql.html">
+            
+                <a href="workshop-mysql.html">
+            
+                    
+                    workshop-mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >postgresql-shell</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="postgresql-commands">PostgreSQL Commands</h1>
+<p>&#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE44;&#xE14;&#xE49;&#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49; 3 &#xE27;&#xE34;&#xE18;&#xE35;&#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;</p>
+<ol>
+<li><p>&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE1C;&#xE48;&#xE32;&#xE19;&#xE17;&#xE32;&#xE07; sql shell (psql) connect database &#xE14;&#xE49;&#xE27;&#xE22; psql</p>
+<pre><code> psql -U postgres postgres
+ postgres=# CREATE DATABASE testdb1;
+ postgres=# CREATE USER dbadmin1;
+ postgres=# ALTER USER dbadmin1 WITH password &apos;password&apos;;
+ postgres=# GRANT ALL PRIVILEGES ON DATABASE testdb1 to dbadmin1;
+ postgres=# CREATE USER dbadmin2 WITH PASSWORD &apos;password&apos;;
+ postgres=# \du
+ postgres=# \q
+
+ (connect database &#xE0A;&#xE37;&#xE48;&#xE2D; testdb1 &#xE14;&#xE49;&#xE27;&#xE22; user dbadmin1)
+ [root@localhost ~]# psql -U dbadmin1 testdb1
+ Password for user dbadmin1:
+ psql (10.2)
+ Type &quot;help&quot; for help.
+
+ testdb1=&gt;
+</code></pre></li>
+<li><p>&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE1C;&#xE48;&#xE32;&#xE19;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; createdb command &#xE1C;&#xE48;&#xE32;&#xE19;&#xE17;&#xE32;&#xE07; linux shell</p>
+</li>
+</ol>
+<p>&#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07; user &#xE1C;&#xE48;&#xE32;&#xE19;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; createuser &#xE41;&#xE25;&#xE30; &#xE01;&#xE32;&#xE23;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE1C;&#xE48;&#xE32;&#xE19;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; createdb</p>
+<pre><code>    [root@localhost ~]# createuser --help
+
+    [root@localhost ~]# createuser -P -s -d dbadmin3 -U postgres
+    Enter password for new role:
+    Enter it again:
+    Password: (&#xE43;&#xE2A;&#xE48; password &#xE02;&#xE2D;&#xE07; postgres )
+
+    [root@localhost ~]# createdb --help
+    [root@localhost ~]# createdb --owner=dbadmin3 -U postgres  testdb3
+    Password: (&#xE43;&#xE2A;&#xE48; password &#xE02;&#xE2D;&#xE07; postgres )
+
+    [root@localhost ~]# psql -U dbadmin3
+    Password for user dbadmin3:
+    psql: FATAL:  database &quot;dbadmin3&quot; does not exist
+    (error &#xE40;&#xE1E;&#xE23;&#xE32;&#xE30; postgres &#xE08;&#xE30;&#xE1E;&#xE22;&#xE32;&#xE22;&#xE32;&#xE21; &#xE40;&#xE1B;&#xE34;&#xE14; database &#xE0A;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27;&#xE01;&#xE31;&#xE1A; user)
+
+    [root@localhost ~]## psql -U dbadmin3 -d testdb3
+    Password for user dbadmin3:
+    psql (10.2)
+    Type &quot;help&quot; for help.
+
+    testdb3=# \l
+                                List of databases
+    Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
+    -----------+----------+----------+-------------+-------------+-----------------------
+    postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+    template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+    |          |          |             |             | postgres=CTc/postgres
+    template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+    |          |          |             |             | postgres=CTc/postgres
+    testdb1   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+    testdb3   | dbadmin3 | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+</code></pre><h4 id="&#xE2A;&#xE23;&#xE38;&#xE1B;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;&#xE40;&#xE1A;&#xE37;&#xE49;&#xE2D;&#xE07;&#xE15;&#xE49;&#xE19;">&#xE2A;&#xE23;&#xE38;&#xE1B;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;&#xE40;&#xE1A;&#xE37;&#xE49;&#xE2D;&#xE07;&#xE15;&#xE49;&#xE19;</h4>
+<ul>
+<li><code>testdb1=&gt; \du</code>  &#xE41;&#xE2A;&#xE14;&#xE07;&#xE23;&#xE32;&#xE22;&#xE0A;&#xE37;&#xE48;&#xE2D; user</li>
+<li><code>postgres=# \l</code>  &#xE41;&#xE2A;&#xE14;&#xE07;&#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;</li>
+<li><code>postgres=# \dt</code>  &#xE41;&#xE2A;&#xE14;&#xE07;&#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;</li>
+<li><code>postgres=# \c</code>   database`` connect &#xE01;&#xE31;&#xE1A;&#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;</li>
+</ul>
+<pre><code>    [root@localhost ~]# psql -U dbadmin1 testdb1
+    Password for user dbadmin1:
+    psql (10.2)
+    Type &quot;help&quot; for help.
+
+    testdb1=&gt; \du
+                                       List of roles
+     Role name |                         Attributes                         | Member of
+    -----------+------------------------------------------------------------+-----------
+     davide    |                                                            | {}
+     dbadmin1  |                                                            | {}
+     dbadmin3  | Superuser, Create role, Create DB                          | {}
+     jonathan  |                                                            | {}
+     postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+
+    testdb1=&gt; \l
+                                      List of databases
+       Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
+    -----------+----------+----------+-------------+-------------+-----------------------
+     postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+     template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+               |          |          |             |             | postgres=CTc/postgres
+     template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+               |          |          |             |             | postgres=CTc/postgres
+     testdb1   | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =Tc/postgres         +
+               |          |          |             |             | postgres=CTc/postgres+
+               |          |          |             |             | dbadmin1=CTc/postgres
+     testdb3   | dbadmin3 | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+    (5 rows)
+
+    testdb1=&gt; \c testdb3
+    You are now connected to database &quot;testdb3&quot; as user &quot;dbadmin1&quot;.
+    testdb3=&gt;
+</code></pre><h4 id="&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;-1-&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;">&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07; 1 &#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;</h4>
+<ul>
+<li>&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07; <code>employees</code> &#xE1B;&#xE23;&#xE30;&#xE01;&#xE2D;&#xE1A;&#xE14;&#xE49;&#xE27;&#xE22; colume employee_id, first_name, last_name</li>
+<li><code>CREATE TABLE employees (employee_id int, first_name varchar, last_name varchar);</code></li>
+<li>&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21; record</li>
+<li><code>INSERT INTO employees VALUES (1, &apos;John&apos;, &apos;Doe&apos;);</code></li>
+</ul>
+<pre><code>    testdb3=&gt; CREATE TABLE employees (employee_id int, first_name varchar, last_name varchar);
+    testdb3=&gt; INSERT INTO employees VALUES (1, &apos;John&apos;, &apos;Doe&apos;);
+
+    testdb3=&gt; \d employees
+                     Table &quot;public.employees&quot;
+    Column    |       Type        | Collation | Nullable | Default
+    -------------+-------------------+-----------+----------+---------
+    employee_id | integer           |           |          |
+    first_name  | character varying |           |          |
+    last_name   | character varying |           |          |
+
+    testdb3=&gt; SELECT * FROM employees;
+    testdb3=&gt; \dt
+           List of relations
+     Schema |   Name    | Type  |  Owner
+    --------+-----------+-------+----------
+     public | employees | table | dbadmin1
+     (1 row)
+</code></pre><h4 id="informationschema-meta-data">Information_schema meta data</h4>
+<p>&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; SELECT &#xE04;&#xE49;&#xE19;&#xE2B;&#xE32;&#xE0A;&#xE37;&#xE48;&#xE2D; colume name &#xE08;&#xE32;&#xE01;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07; <code>information_schema</code>  meta-data</p>
+<pre><code>   SELECT
+     COLUMN_NAME
+   FROM
+     information_schema.COLUMNS
+   WHERE
+     TABLE_NAME = &apos;employees&apos;;
+</code></pre><h4 id="&#xE41;&#xE2A;&#xE14;&#xE07;-tables-&#xE43;&#xE0A;&#xE49;-pgcatalog-schema">&#xE41;&#xE2A;&#xE14;&#xE07; tables &#xE43;&#xE0A;&#xE49; pg_catalog schema</h4>
+<pre><code>   SELECT
+     *
+   FROM
+     pg_catalog.pg_tables
+   WHERE
+     schemaname != &apos;pg_catalog&apos;
+   AND schemaname != &apos;information_schema&apos;;
+</code></pre><h4 id="&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;-2-&#xE2A;&#xE32;&#xE22;&#xE01;&#xE32;&#xE23;&#xE1A;&#xE34;&#xE19;">&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07; 2 &#xE2A;&#xE32;&#xE22;&#xE01;&#xE32;&#xE23;&#xE1A;&#xE34;&#xE19;</h4>
+<p>&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07; &#xE14;&#xE49;&#xE32;&#xE19;&#xE25;&#xE48;&#xE32;&#xE07; &#xE41;&#xE2A;&#xE14;&#xE07;&#xE40;&#xE2A;&#xE49;&#xE19;&#xE17;&#xE32;&#xE07;&#xE01;&#xE32;&#xE23;&#xE40;&#xE14;&#xE34;&#xE19;&#xE23;&#xE30;&#xE2B;&#xE27;&#xE48;&#xE32;&#xE07;&#xE40;&#xE21;&#xE37;&#xE2D;&#xE07;&#xE1E;&#xE23;&#xE49;&#xE2D;&#xE21;&#xE23;&#xE30;&#xE22;&#xE30;&#xE17;&#xE32;&#xE07;</p>
+<p><img src="assets/flights.png" alt=""></p>
+<h4 id="postgresql-data-type">Postgresql data type</h4>
+<p><img src="assets/pgsql-datatype.png" alt=""></p>
+<h2 id="create-table">CREATE TABLE</h2>
+<ul>
+<li>&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE44;&#xE1F;&#xE25;&#xE4C; &#xE0A;&#xE37;&#xE48;&#xE2D; <code>flight-createtable.sql</code> &#xE21;&#xE35;&#xE40;&#xE19;&#xE37;&#xE49;&#xE2D;&#xE2B;&#xE32;&#xE14;&#xE31;&#xE07;&#xE15;&#xE48;&#xE2D;&#xE44;&#xE1B;&#xE19;&#xE35;&#xE49;</li>
+</ul>
+<p>.. literalinclude:: _static/code/flight-createtable.sql</p>
+<p>&#xE21;&#xE35;&#xE01;&#xE32;&#xE23;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14; constraint <code>NOT NULL</code> &#xE43;&#xE19;&#xE44;&#xE1F;&#xE25;&#xE4C; &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE1B;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE31;&#xE19;&#xE04;&#xE48;&#xE32;&#xE27;&#xE48;&#xE32;&#xE07; (&#xE44;&#xE21;&#xE48;&#xE01;&#xE33;&#xE2B;&#xE19;&#xE14;&#xE04;&#xE48;&#xE32;)</p>
+<p><img src="assets/constraint.png" alt=""></p>
+<p>&#xE40;&#xE1B;&#xE47;&#xE19; sql syntax &#xE40;&#xE21;&#xE37;&#xE48;&#xE2D; import &#xE40;&#xE02;&#xE49;&#xE32;&#xE2A;&#xE39;&#xE48;&#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25; &#xE01;&#xE47;&#xE16;&#xE39;&#xE01;&#xE41;&#xE1B;&#xE25;&#xE04;&#xE27;&#xE32;&#xE21; &#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE19;&#xE33;&#xE40;&#xE02;&#xE49;&#xE32;&#xE2A;&#xE39;&#xE48; database<br>&#xE44;&#xE14;&#xE49; 2 &#xE41;&#xE1A;&#xE1A; &#xE44;&#xE14;&#xE49;&#xE41;&#xE01;&#xE48;&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE01;&#xE32;&#xE23; <code>&lt;</code> &#xE2B;&#xE23;&#xE37;&#xE2D;&#xE08;&#xE30; copy &#xE42;&#xE14;&#xE22;&#xE15;&#xE23;&#xE07;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07; postgres shell &#xE01;&#xE47;&#xE44;&#xE14;&#xE49;</p>
+<pre><code>    [root@localhost ~]# psql -U dbadmin3 testdb3  &lt; flight-createdb.sql
+    Password for user dbadmin3:
+    CREATE TABLE
+
+    &#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE43;&#xE0A;&#xE49; option ``-c`` &#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE2A;&#xE48;&#xE07;&#xE04;&#xE33;&#xE2A;&#xE48;&#xE07;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07; postgres shell
+    [root@localhost ~]# psql -U dbadmin3 testdb3  -c &quot;\d&quot;
+    Password for user dbadmin3:
+                   List of relations
+     Schema |      Name      |   Type   |  Owner
+    --------+----------------+----------+----------
+     public | employees      | table    | dbadmin1
+     public | flights        | table    | dbadmin3
+     public | flights_id_seq | sequence | dbadmin3
+</code></pre><h4 id="insert-table">INSERT TABLE</h4>
+<p>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A; sql syntax::</p>
+<pre><code>INSERT INTO TABLE_NAME (column1, column2, column3,...columnN)
+VALUES (value1, value2, value3,...valueN);
+</code></pre><p>.. literalinclude:: _static/code/flight-insert.sql</p>
+<pre><code>    [root@localhost ~]# psql -U dbadmin3 testdb3  -c &quot;select * from flights&quot;
+    Password for user dbadmin3:
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      1 | New York | London      |      415
+      2 | Shanghai | Paris       |      760
+      3 | Istanbul | Tokyo       |      700
+      4 | New York | Paris       |      435
+      5 | Moscow   | Paris       |      245
+      6 | Lima     | New York    |      455
+    (6 rows)
+</code></pre><h4 id="select-and-where">SELECT and WHERE</h4>
+<p>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A; sql syntax::</p>
+<pre><code>    SELECT column1, column2, columnN
+    FROM table_name
+    WHERE [CONDITION | EXPRESSION];
+</code></pre><p>&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE23;&#xE48;&#xE27;&#xE21;&#xE01;&#xE31;&#xE19; &#xE23;&#xE30;&#xE2B;&#xE27;&#xE48;&#xE32;&#xE07; Comparison &#xE41;&#xE25;&#xE30; Logical</p>
+<h4 id="postgresql-comparison-operators">PostgreSQL Comparison Operators</h4>
+<p><img src="assets/operator.png" alt=""></p>
+<h2 id="postgresql-logical-operators">PostgreSQL Logical Operators</h2>
+<p><img src="assets/logical.png" alt=""></p>
+<pre><code>    SELECT * FROM flights WHERE duration &gt; 500;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      2 | Shanghai | Paris       |      760
+      3 | Istanbul | Tokyo       |      700
+    (2 rows)
+
+    SELECT * FROM flights WHERE destination = &apos;Paris&apos;
+    id |  origin  | destination | duration
+    ----+----------+-------------+----------
+     2 | Shanghai | Paris       |      760
+     4 | New York | Paris       |      435
+     5 | Moscow   | Paris       |      245
+    (3 rows)
+
+    SELECT * FROM flights WHERE destination = &apos;Paris&apos; AND  duration &gt; 500;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      2 | Shanghai | Paris       |      760
+    (1 row)
+</code></pre><h4 id="aggregate-functions">Aggregate Functions</h4>
+<p>Aggregate function &#xE04;&#xE37;&#xE2D;&#xE01;&#xE32;&#xE23;&#xE04;&#xE33;&#xE19;&#xE27;&#xE19;&#xE41;&#xE25;&#xE49;&#xE27;&#xE44;&#xE14;&#xE49;&#xE1C;&#xE25;&#xE25;&#xE31;&#xE1E;&#xE17;&#xE4C; &#xE40;&#xE1E;&#xE35;&#xE22;&#xE07;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27; &#xE08;&#xE32;&#xE01;&#xE01;&#xE32;&#xE23;&#xE04;&#xE33;&#xE19;&#xE27;&#xE19;&#xE02;&#xE2D;&#xE07;&#xE0A;&#xE38;&#xE14;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25; &#xE0A;&#xE38;&#xE14;&#xE43;&#xE14;&#xE46;</p>
+<p><img src="assets/aggregate.png" alt=""></p>
+<ul>
+<li>&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE2B;&#xE32;&#xE04;&#xE48;&#xE32;&#xE40;&#xE09;&#xE25;&#xE35;&#xE48;&#xE22; <code>avg</code></li>
+</ul>
+<pre><code>    SELECT AVG(duration) FROM flights;
+             avg
+    ----------------------
+     501.6666666666666667
+    (1 row)
+
+    SELECT AVG(duration) FROM flights WHERE origin=&apos;New York&apos;;
+         avg
+    ----------------------
+     425.0000000000000000
+    (1 row)
+</code></pre><ul>
+<li>&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE19;&#xE31;&#xE1A;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19; record <code>count</code></li>
+</ul>
+<pre><code>    SELECT COUNT(*) FROM flights;
+     count
+    -------
+         6
+    (1 row)
+    SELECT COUNT(*) FROM flights WHERE origin = &apos;New York&apos;;
+     count
+    -------
+         2
+    (1 row)
+    SELECT COUNT(*) FROM flights WHERE origin = &apos;Moscow&apos;;
+     count
+    -------
+         1
+    (1 row)
+</code></pre><ul>
+<li>&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE2B;&#xE32;&#xE04;&#xE48;&#xE32; &#xE15;&#xE48;&#xE33;&#xE2A;&#xE38;&#xE14; &#xE41;&#xE25;&#xE30; &#xE2A;&#xE39;&#xE07;&#xE2A;&#xE38;&#xE14;</li>
+</ul>
+<pre><code>    testdb3=# SELECT MIN(duration) FROM flights;
+     min
+    -----
+     245
+    (1 row)
+
+    testdb3=# SELECT MAX(duration) FROM flights;
+     max
+    -----
+     760
+    (1 row)
+</code></pre><ul>
+<li>&#xE40;&#xE07;&#xE37;&#xE48;&#xE2D;&#xE19;&#xE44;&#xE02; IN, NOT IN CONDITION</li>
+</ul>
+<p>postgres &#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE04;&#xE49;&#xE19;&#xE2B;&#xE32; &#xE14;&#xE49;&#xE27;&#xE22; <code>IN condition</code><br>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A; sql syntax</p>
+<pre><code>    expression IN (value1, value2, .... value_n);
+</code></pre><pre><code>    testdb3=# SELECT * FROM flights WHERE origin IN (&apos;New York&apos;, &apos;Lima&apos;);
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      1 | New York | London      |      415
+      4 | New York | Paris       |      435
+      6 | Lima     | New York    |      455
+    (3 rows)
+
+    testdb3=# SELECT * FROM flights WHERE origin NOT IN (&apos;New York&apos;, &apos;Lima&apos;);
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      2 | Shanghai | Paris       |      760
+      3 | Istanbul | Tokyo       |      700
+      5 | Moscow   | Paris       |      245
+    (3 rows)
+</code></pre><ul>
+<li>&#xE04;&#xE49;&#xE19;&#xE2B;&#xE32; LIKE, NOT LIKE</li>
+</ul>
+<p>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A; sql syntax</p>
+<pre><code>    string LIKE pattern
+    string NOT LIKE pattern
+</code></pre><pre><code>    testdb3=# SELECT * FROM flights WHERE origin LIKE &apos;%a%&apos;;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      2 | Shanghai | Paris       |      760
+      3 | Istanbul | Tokyo       |      700
+      6 | Lima     | New York    |      455
+    (3 rows)
+</code></pre><p>.. warning::</p>
+<pre><code>Like &#xE43;&#xE0A;&#xE49;&#xE44;&#xE14;&#xE49;&#xE01;&#xE31;&#xE1A; text &#xE2B;&#xE32;&#xE01;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23; &#xE04;&#xE49;&#xE19;&#xE2B;&#xE32; Attributes &#xE17;&#xE35;&#xE48;&#xE40;&#xE1B;&#xE47;&#xE19; integer &#xE15;&#xE49;&#xE2D;&#xE07;&#xE17;&#xE33;&#xE01;&#xE32;&#xE23; cast
+&#xE40;&#xE1B;&#xE47;&#xE19; text &#xE14;&#xE49;&#xE27;&#xE22; ``::TEXT``
+</code></pre><pre><code>    testdb3=# SELECT * FROM flights WHERE duration LIKE &apos;%7%&apos;;
+
+    testdb3=# SELECT * FROM flights WHERE duration::TEXT LIKE &apos;%7%&apos;;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      2 | Shanghai | Paris       |      760
+      3 | Istanbul | Tokyo       |      700
+    (2 rows)
+</code></pre><ul>
+<li>&#xE1B;&#xE23;&#xE31;&#xE1A;&#xE1B;&#xE23;&#xE38;&#xE07; UPDATE</li>
+</ul>
+<p>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A; sql syntax</p>
+<pre><code>    UPDATE table_name
+    SET column1 = value1, column2 = value2...., columnN = valueN
+    WHERE [condition];
+</code></pre><p>&#xE43;&#xE0A;&#xE49;&#xE2A;&#xE33;&#xE2B;&#xE23;&#xE31;&#xE1A;&#xE01;&#xE32;&#xE23;&#xE1B;&#xE23;&#xE31;&#xE1A;&#xE1B;&#xE23;&#xE38;&#xE07;&#xE04;&#xE48;&#xE32;&#xE02;&#xE2D;&#xE07; Attributes</p>
+<pre><code>    UPDATE flights
+        SET duration = 430
+        WHERE origin = &apos;New York&apos;
+        AND destination = &apos;London&apos;;
+</code></pre><p>run</p>
+<pre><code>    testdb3=# UPDATE flights
+    testdb3-# SET duration = 430
+    testdb3-# WHERE origin = &apos;New York&apos;
+    testdb3-# AND destination = &apos;London&apos;;
+    UPDATE 1
+</code></pre><ul>
+<li>&#xE25;&#xE1A; DELETE</li>
+</ul>
+<p>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A; sql syntax</p>
+<pre><code>    DELETE FROM table_name
+    WHERE [condition];
+</code></pre><p>run</p>
+<pre><code>    DELETE FROM flights WHERE origin = &apos;New York&apos;;
+</code></pre><ul>
+<li>&#xE08;&#xE33;&#xE01;&#xE31;&#xE14;&#xE08;&#xE33;&#xE19;&#xE27;&#xE19; LIMIT</li>
+</ul>
+<p>&#xE08;&#xE33;&#xE01;&#xE31;&#xE14; &#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE1C;&#xE25;&#xE25;&#xE31;&#xE1E;&#xE17;&#xE4C; &#xE17;&#xE35;&#xE48;&#xE44;&#xE14;&#xE49;&#xE08;&#xE32;&#xE01; query</p>
+<p>run</p>
+<pre><code>    testdb3=# SELECT * FROM flights LIMIT 2;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      2 | Shanghai | Paris       |      760
+      3 | Istanbul | Tokyo       |      700
+    (2 rows)
+</code></pre><ul>
+<li>&#xE08;&#xE31;&#xE14;&#xE25;&#xE33;&#xE14;&#xE31;&#xE1A; ORDER</li>
+</ul>
+<p>&#xE40;&#xE23;&#xE35;&#xE22;&#xE07;&#xE25;&#xE33;&#xE14;&#xE31;&#xE1A;&#xE1C;&#xE25;&#xE25;&#xE31;&#xE1E;&#xE17;&#xE4C; &#xE42;&#xE14;&#xE22; &#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; attribute &#xE40;&#xE23;&#xE35;&#xE22;&#xE07;&#xE08;&#xE32;&#xE01;&#xE19;&#xE49;&#xE2D;&#xE22;&#xE44;&#xE1B;&#xE2B;&#xE32;&#xE21;&#xE32;&#xE01; ASC &#xE2B;&#xE23;&#xE37;&#xE2D;&#xE40;&#xE23;&#xE35;&#xE22;&#xE07;&#xE08;&#xE32;&#xE01;&#xE21;&#xE32;&#xE01;&#xE44;&#xE1B;&#xE2B;&#xE32;&#xE19;&#xE49;&#xE2D;&#xE22; DSC</p>
+<p>run</p>
+<pre><code>    testdb3=# SELECT * FROM flights ORDER BY duration ASC;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      5 | Moscow   | Paris       |      245
+      1 | New York | London      |      430
+      4 | New York | Paris       |      435
+      6 | Lima     | New York    |      455
+      3 | Istanbul | Tokyo       |      700
+      2 | Shanghai | Paris       |      760
+    (6 rows)
+
+    testdb3=# SELECT * FROM flights ORDER BY duration ASC LIMIT 3;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      5 | Moscow   | Paris       |      245
+      1 | New York | London      |      430
+      4 | New York | Paris       |      435
+    (3 rows)
+
+    testdb3=# SELECT * FROM flights ORDER BY duration DESC;
+     id |  origin  | destination | duration
+    ----+----------+-------------+----------
+      2 | Shanghai | Paris       |      760
+      3 | Istanbul | Tokyo       |      700
+      6 | Lima     | New York    |      455
+      4 | New York | Paris       |      435
+      1 | New York | London      |      430
+      5 | Moscow   | Paris       |      245
+    (6 rows)
+</code></pre><ul>
+<li>&#xE08;&#xE31;&#xE14;&#xE01;&#xE25;&#xE38;&#xE48;&#xE21; GROUP BY</li>
+</ul>
+<p>&#xE42;&#xE14;&#xE22;&#xE2A;&#xE48;&#xE27;&#xE19;&#xE21;&#xE32;&#xE01;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE23;&#xE48;&#xE27;&#xE21;&#xE01;&#xE31;&#xE1A; aggregate fuction  SUM, COUNT , HAVE<br>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A; sql syntax</p>
+<pre><code>    SELECT column-list
+    FROM table_name
+    WHERE [ conditions ]
+    GROUP BY column1, column2....columnN
+    ORDER BY column1, column2....columnN
+</code></pre><p>run</p>
+<pre><code>    testdb3=# SELECT origin FROM flights GROUP BY origin;
+      origin
+    ----------
+     Shanghai
+     Moscow
+     Istanbul
+     New York
+     Lima
+    (5 rows)
+
+    testdb3=# SELECT origin,COUNT(*)  FROM flights GROUP BY origin;
+      origin  | count
+    ----------+-------
+     Shanghai |     1
+     Moscow   |     1
+     Istanbul |     1
+     New York |     2
+     Lima     |     1
+    (5 rows)
+
+    testdb3=# SELECT origin,COUNT(*)  FROM flights GROUP BY origin
+    testdb3-# HAVING COUNT(*) &gt; 1;
+      origin  | count
+    ----------+-------
+     New York |     2
+    (1 row)
+</code></pre><ul>
+<li>&#xE04;&#xE35;&#xE22;&#xE4C; Foreign Keys
+&#xE1E;&#xE34;&#xE08;&#xE32;&#xE23;&#xE13;&#xE32;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE17;&#xE35;&#xE48;&#xE44;&#xE14;&#xE49;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21; &#xE42;&#xE04;&#xE49;&#xE14;&#xE2A;&#xE19;&#xE32;&#xE21;&#xE1A;&#xE34;&#xE19;</li>
+</ul>
+<p><img src="assets/flights-code.png" alt=""></p>
+<p>&#xE40;&#xE21;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE23;&#xE32;&#xE41;&#xE22;&#xE01; &#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE2D;&#xE2D;&#xE01;&#xE21;&#xE32;&#xE44;&#xE14;&#xE49; 2 &#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;</p>
+<p><img src="assets/flights-code-norm.png" alt=""></p>
+<p>&#xE41;&#xE25;&#xE30;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE15;&#xE34;&#xE21;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE1C;&#xE39;&#xE49;&#xE42;&#xE14;&#xE22;&#xE2A;&#xE32;&#xE23;&#xE17;&#xE35;&#xE48;&#xE42;&#xE14;&#xE22;&#xE2A;&#xE32;&#xE22;&#xE01;&#xE32;&#xE23;&#xE1A;&#xE34;&#xE19;</p>
+<p><img src="assets/flights-passengers.png" alt=""></p>
+<ul>
+<li>&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07; location, flight, passengers &#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;<ul>
+<li>vim flight-passengers.sql</li>
+</ul>
+</li>
+</ul>
+<pre><code>DROP TABLE flights;
+
+CREATE TABLE locations (
+    id SERIAL PRIMARY KEY,
+    code VARCHAR NOT NULL,
+    name VARCHAR NOT NULL
+);
+
+CREATE TABLE flights (
+    id SERIAL PRIMARY KEY,
+    origin_id INTEGER REFERENCES locations,
+    destination_id INTEGER REFERENCES locations,
+    duration INTEGER NOT NULL
+);
+
+CREATE TABLE passengers (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    flight_id INTEGER REFERENCES flights
+);
+</code></pre><p>References &#xE08;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE40;&#xE0A;&#xE37;&#xE48;&#xE2D;&#xE21;&#xE42;&#xE22;&#xE07;&#xE01;&#xE31;&#xE19;&#xE23;&#xE30;&#xE2B;&#xE27;&#xE48;&#xE32;&#xE07; Foreign key &#xE44;&#xE1B;&#xE22;&#xE31;&#xE07; PRIMARY &#xE2D;&#xE35;&#xE01;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE2B;&#xE19;&#xE36;&#xE48;&#xE07;</p>
+<ul>
+<li>Insert &#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE43;&#xE19;&#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25; database<ul>
+<li>&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07; &#xE44;&#xE1F;&#xE25;&#xE4C; <code>vim flight-data.sql</code> &#xE14;&#xE49;&#xE27;&#xE22;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;&#xE14;&#xE49;&#xE32;&#xE19;&#xE25;&#xE48;&#xE32;&#xE07;&#xE19;&#xE35;&#xE49;</li>
+</ul>
+</li>
+</ul>
+<pre><code>INSERT INTO locations
+    (code,name)
+    VALUES (&apos;JFK&apos;,&apos;New York&apos;);
+INSERT INTO locations
+    (code,name)
+    VALUES (&apos;PVG&apos;,&apos;Shanghai&apos;);
+INSERT INTO locations
+    (code,name)
+    VALUES (&apos;IST&apos;,&apos;Istanbul&apos;);
+INSERT INTO locations
+    (code,name)
+    VALUES (&apos;LHR&apos;,&apos;London&apos;);
+INSERT INTO locations
+    (code,name)
+    VALUES (&apos;SVO&apos;,&apos;Moscow&apos;);
+INSERT INTO locations
+    (code,name)
+    VALUES (&apos;Lim&apos;,&apos;Lima&apos;);
+INSERT INTO locations
+    (code,name)
+    VALUES (&apos;CDG&apos;,&apos;Paris&apos;);
+INSERT INTO locations
+    (code,name)
+    VALUES (&apos;NRT&apos;,&apos;Tokyo&apos;);
+
+INSERT INTO flights
+    (origin_id, destination_id, duration)
+    VALUES (1, 4, 415);
+INSERT INTO flights
+    (origin_id, destination_id, duration)
+    VALUES (2, 7, 415);
+INSERT INTO flights
+    (origin_id, destination_id, duration)
+    VALUES (3, 8, 415);
+INSERT INTO flights
+    (origin_id, destination_id, duration)
+    VALUES (1, 7, 415);
+INSERT INTO flights
+    (origin_id, destination_id, duration)
+    VALUES (5, 7, 415);
+INSERT INTO flights
+    (origin_id, destination_id, duration)
+    VALUES (&apos;6&apos;, &apos;1&apos;, 415);
+
+INSERT INTO passengers
+    (name, flight_id)
+    VALUES (&apos;Alice&apos;,1);
+INSERT INTO passengers
+    (name, flight_id)
+    VALUES (&apos;Bob&apos;,1);
+INSERT INTO passengers
+    (name, flight_id)
+    VALUES (&apos;Charlie&apos;,2);
+INSERT INTO passengers
+    (name, flight_id)
+    VALUES (&apos;Dave&apos;,2);
+INSERT INTO passengers
+    (name, flight_id)
+    VALUES (&apos;Erin&apos;,4);
+INSERT INTO passengers
+    (name, flight_id)
+    VALUES (&apos;Frank&apos;,6);
+INSERT INTO passengers
+    (name, flight_id)
+    VALUES (&apos;Grace&apos;,6);
+</code></pre><p>Alice &#xE2D;&#xE22;&#xE39;&#xE48; &#xE40;&#xE04;&#xE23;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE1A;&#xE34;&#xE19;&#xE25;&#xE33;&#xE44;&#xE2B;&#xE19;</p>
+<pre><code>SELECT * FROM passengers WHERE name=&apos;Alice&apos;;
+ id | name  | flight_id
+----+-------+-----------
+  1 | Alice |         1
+(1 row)
+
+SELECT * FROM flights WHERE id=1;
+ id | origin_id | destination_id | duration
+----+-----------+----------------+----------
+  1 |         1 |              4 |      415
+(1 row)
+
+SELECT * FROM locations WHERE id=1;
+ id | code |   name
+----+------+----------
+  1 | JFK  | New York
+(1 row)
+
+SELECT * FROM locations WHERE id=4;
+ id | code |  name
+----+------+--------
+  4 | LHR  | London
+(1 row)
+</code></pre><h4 id="basic-sql-join-type">Basic SQL Join type</h4>
+<p><img src="assets/join.PNG" alt=""></p>
+<p>Join &#xE40;&#xE1B;&#xE47;&#xE19;&#xE01;&#xE32;&#xE23;&#xE04;&#xE49;&#xE19;&#xE2B;&#xE32;&#xE08;&#xE32;&#xE01;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE17;&#xE35;&#xE48;&#xE21;&#xE32;&#xE01;&#xE01;&#xE27;&#xE48;&#xE32; 1 &#xE15;&#xE32;&#xE23;&#xE32;&#xE07; &#xE43;&#xE2B;&#xE49;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE01;&#xE32;&#xE23;&#xE04;&#xE49;&#xE19;&#xE2B;&#xE32;&#xE04;&#xE23;&#xE31;&#xE49;&#xE07;&#xE40;&#xE14;&#xE35;&#xE22;&#xE27;<br>Syntax</p>
+<pre><code>SELECT column_name(s)
+FROM table1
+LEFT JOIN table2 ON table1.column_name = table2.column_name;
+</code></pre><p>&#xE2A;&#xE2D;&#xE07;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE17;&#xE35;&#xE48;&#xE21;&#xE35;&#xE04;&#xE27;&#xE32;&#xE21;&#xE2A;&#xE31;&#xE21;&#xE1E;&#xE31;&#xE19;&#xE18;&#xE4C;&#xE01;&#xE31;&#xE19; &#xE42;&#xE14;&#xE22;&#xE17;&#xE35;&#xE48;&#xE17;&#xE31;&#xE49;&#xE07;&#xE2A;&#xE2D;&#xE07;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE08;&#xE30;&#xE21;&#xE35; attribute (colume) &#xE15;&#xE23;&#xE07;&#xE01;&#xE31;&#xE19;</p>
+<p><img src="assets/SQL_Join_-_07_A_Inner_Join_B_svg.png" alt=""></p>
+<pre><code>testdb3=# SELECT origin_id,destination_id,name FROM flights
+testdb3-# JOIN passengers
+testdb3-# ON flights.id=passengers.flight_id;
+ origin_id | destination_id |  name
+-----------+----------------+---------
+         1 |              4 | Alice
+         1 |              4 | Bob
+         2 |              7 | Charlie
+         2 |              7 | Dave
+         1 |              7 | Erin
+         6 |              1 | Frank
+         6 |              1 | Grace
+(7 rows)
+</code></pre><p>&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE40;&#xE07;&#xE37;&#xE48;&#xE2D;&#xE19;&#xE44;&#xE02; <code>where</code></p>
+<pre><code>testdb3=# SELECT origin_id,destination_id,name FROM flights
+testdb3-# JOIN passengers
+testdb3-# ON flights.id=passengers.flight_id
+testdb3-# WHERE name=&apos;Alice&apos;;
+ origin_id | destination_id | name
+-----------+----------------+-------
+         1 |              4 | Alice
+(1 row)
+</code></pre><p>&#xE43;&#xE19; sql &#xE40;&#xE21;&#xE37;&#xE48;&#xE2D;&#xE21;&#xE35;&#xE01;&#xE32;&#xE23;&#xE23;&#xE30;&#xE1A;&#xE38; join &#xE08;&#xE30;&#xE2B;&#xE21;&#xE32;&#xE22;&#xE16;&#xE36;&#xE07; inner join &#xE17;&#xE35;&#xE48;&#xE15;&#xE23;&#xE07;&#xE15;&#xE32;&#xE21;&#xE40;&#xE07;&#xE37;&#xE48;&#xE2D;&#xE19;&#xE44;&#xE02; &#xE40;&#xE17;&#xE48;&#xE32;&#xE19;&#xE31;&#xE19; &#xE41;&#xE15;&#xE48;&#xE2B;&#xE32;&#xE01;&#xE40;&#xE1B;&#xE47;&#xE19; LEFT JOIN &#xE1C;&#xE25;&#xE17;&#xE35;&#xE48;&#xE44;&#xE14;&#xE49;&#xE01;&#xE47;&#xE08;&#xE30;&#xE1E;&#xE22;&#xE32;&#xE22;&#xE32;&#xE21;&#xE23;&#xE31;&#xE01;&#xE29;&#xE32; &#xE08;&#xE33;&#xE19;&#xE27;&#xE19;&#xE2A;&#xE21;&#xE32;&#xE0A;&#xE34;&#xE01;&#xE43;&#xE19; &#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE17;&#xE32;&#xE07;&#xE0B;&#xE49;&#xE32;&#xE22;&#xE44;&#xE27;&#xE49; &#xE43;&#xE2B;&#xE49;&#xE04;&#xE23;&#xE1A;&#xE16;&#xE49;&#xE27;&#xE19; &#xE17;&#xE33;&#xE43;&#xE2B;&#xE49;&#xE21;&#xE35;&#xE1A;&#xE32;&#xE07;&#xE2A;&#xE48;&#xE27;&#xE19;&#xE02;&#xE2D;&#xE07;&#xE1C;&#xE25;&#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE44;&#xE14;&#xE49;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE04;&#xE48;&#xE32;&#xE27;&#xE48;&#xE32;&#xE07; &#xE40;&#xE19;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE08;&#xE32;&#xE01; &#xE44;&#xE21;&#xE48; match</p>
+<p>LEFT JOIN</p>
+<p><img src="assets/SQL_Join_-_01_A_Left_Join_B_svg.png" alt=""></p>
+<pre><code>testdb3=#  SELECT origin_id,destination_id,name FROM flights
+testdb3-# LEFT JOIN passengers
+testdb3-#  ON flights.id=passengers.flight_id;
+ origin_id | destination_id |  name
+-----------+----------------+---------
+         1 |              4 | Alice
+         1 |              4 | Bob
+         2 |              7 | Charlie
+         2 |              7 | Dave
+         1 |              7 | Erin
+         6 |              1 | Frank
+         6 |              1 | Grace
+         5 |              7 |
+         3 |              8 |
+(9 rows)
+</code></pre><p>RIGHT JOIN<br>&#xE23;&#xE39;&#xE1B;&#xE41;&#xE1A;&#xE1A;</p>
+<pre><code>SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2 ON table1.column_name = table2.column_name;
+</code></pre><p><img src="assets/SQL_Join_-_03_A_Right_Join_B_svg.png" alt=""></p>
+<pre><code>testdb3=# SELECT origin_id,destination_id,name FROM flights
+testdb3-# RIGHT JOIN passengers
+testdb3-# ON flights.id=passengers.flight_id;
+ origin_id | destination_id |  name
+-----------+----------------+---------
+         1 |              4 | Alice
+         1 |              4 | Bob
+         2 |              7 | Charlie
+         2 |              7 | Dave
+         1 |              7 | Erin
+         6 |              1 | Frank
+         6 |              1 | Grace
+(7 rows)
+</code></pre><p>&#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19; index &#xE40;&#xE1B;&#xE47;&#xE19;&#xE01;&#xE32;&#xE23;&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21;&#xE1B;&#xE23;&#xE30;&#xE2A;&#xE34;&#xE17;&#xE18;&#xE34;&#xE20;&#xE32;&#xE1E;&#xE02;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE04;&#xE49;&#xE19;&#xE2B;&#xE32; &#xE42;&#xE14;&#xE22;&#xE01;&#xE32;&#xE23;&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01; attribute &#xE17;&#xE35;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE01;&#xE32;&#xE23;&#xE08;&#xE32;&#xE01;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;  Syntax</p>
+<pre><code>CREATE INDEX index_name
+ON table_name (column1, column2, ...);
+
+DROP INDEX index_name;
+</code></pre><p>&#xE17;&#xE14;&#xE2A;&#xE2D;&#xE1A;</p>
+<pre><code>testdb3=# CREATE INDEX flight_index ON flights (origin_id, destination_id)
+testdb3=# SELECT * from pg_indexes WHERE tablename = &apos;flights&apos;;
+</code></pre><p>&#xE17;&#xE14;&#xE2A;&#xE2D;&#xE1A;</p>
+<pre><code>testdb3=# \d  flights
+                                Table &quot;public.flights&quot;
+     Column     |  Type   | Collation | Nullable |               Default
+----------------+---------+-----------+----------+-------------------------------------
+ id             | integer |           | not null | nextval(&apos;flights_id_seq&apos;::regclass)
+ origin_id      | integer |           |          |
+ destination_id | integer |           |          |
+ duration       | integer |           | not null |
+Indexes:
+    &quot;flights_pkey&quot; PRIMARY KEY, btree (id)
+    &quot;flight_index&quot; btree (origin_id, destination_id)   &lt;----- index
+Foreign-key constraints:
+    &quot;flights_destination_id_fkey&quot; FOREIGN KEY (destination_id) REFERENCES locations(id)
+    &quot;flights_origin_id_fkey&quot; FOREIGN KEY (origin_id) REFERENCES locations(id)
+Referenced by:
+    TABLE &quot;passengers&quot; CONSTRAINT &quot;passengers_flight_id_fkey&quot; FOREIGN KEY (flight_id) REFERENCES flights(id)
+</code></pre><p>NESTED query<br>SQL &#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE19;&#xE33; query &#xE21;&#xE32;&#xE23;&#xE31;&#xE19; &#xE0B;&#xE49;&#xE2D;&#xE19;&#xE01;&#xE31;&#xE19;&#xE44;&#xE14;&#xE49; &#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;</p>
+<pre><code>SELECT * FROM flights WHERE id IN (SELECT flight_id FROM passengers GROUP BY
+flight_id HAVING COUNT(*) &gt; 1 );
+ id | origin_id | destination_id | duration
+----+-----------+----------------+----------
+  6 |         6 |              1 |      415
+  2 |         2 |              7 |      415
+  1 |         1 |              4 |      415
+(3 rows)
+</code></pre><hr>
+<h2 id="workshop-customer-orders">Workshop customer-orders</h2>
+<p>&#xE43;&#xE2B;&#xE49;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE15;&#xE32;&#xE23;&#xE32;&#xE07;&#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE40;&#xE01;&#xE47;&#xE1A;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25; &#xE04;&#xE27;&#xE32;&#xE21;&#xE2A;&#xE31;&#xE21;&#xE1E;&#xE31;&#xE19;&#xE23;&#xE30;&#xE2B;&#xE27;&#xE48;&#xE32;&#xE07;  customer  &#xE41;&#xE25;&#xE30; order &#xE14;&#xE31;&#xE07;&#xE15;&#xE48;&#xE2D;&#xE44;&#xE1B;&#xE19;&#xE35;&#xE49;</p>
+<p><img src="assets/1464296183284.png" alt=""></p>
+<h4 id="&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;">&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;</h4>
+<p><img src="assets/customers.PNG" alt="">&#xE41;&#xE25;&#xE30;</p>
+<p><img src="assets/orders.PNG" alt=""></p>
+<p>&#xE2B;&#xE25;&#xE31;&#xE07;&#xE08;&#xE32;&#xE01; insert &#xE41;&#xE25;&#xE49;&#xE27; &#xE25;&#xE2D;&#xE07;&#xE17;&#xE14;&#xE2A;&#xE2D;&#xE1A;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; SQL &#xE14;&#xE31;&#xE07;&#xE19;&#xE35;&#xE49;</p>
+<p>&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;1</p>
+<pre><code>select order_date, order_amount
+from customers
+join orders
+   on customers.customer_id = orders.customer_id
+where customer_id = 3;
+</code></pre><p>&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;2</p>
+<pre><code>select first_name, last_name, order_date, order_amount 
+from customers c 
+left join orders o 
+on c.customer_id = o.customer_id;
+</code></pre><p>&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;3</p>
+<pre><code>select first_name, last_name, order_date, order_amount 
+from customers c 
+left join orders o 
+on c.customer_id = o.customer_id 
+where order_date is NULL;
+</code></pre><p>&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;4</p>
+<pre><code>select first_name, last_name, order_date, order_amount 
+from customers c 
+right join orders o 
+on c.customer_id = o.customer_id;
+</code></pre><p>&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;5</p>
+<pre><code>select first_name, last_name, order_date, order_amount 
+from customers c 
+right join orders o 
+on c.customer_id = o.customer_id 
+where first_name is NULL;
+</code></pre><p>&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07;6</p>
+<pre><code>select first_name, last_name, order_date, order_amount 
+from customers c 
+full join orders o 
+on c.customer_id = o.customer_id;
+</code></pre><h3 id="script-sql">script sql</h3>
+<pre><code>DROP TABLE customers;
+DROP TABLE orders;
+
+CREATE TABLE customers (
+    customer_id SERIAL PRIMARY KEY,
+    first_name VARCHAR NOT NULL,
+    last_name VARCHAR NOT NULL,
+    email VARCHAR NOT NULL,
+    address  VARCHAR NOT NULL,
+    city VARCHAR NOT NULL,
+    state VARCHAR NOT NULL,
+    zipcode INTEGER
+);
+
+CREATE TABLE orders (
+    order_id  SERIAL PRIMARY KEY,
+    order_date DATE NOT NULL,
+    AMOUNT NUMERIC(18,2) NOT NULL,
+    customer_id INTEGER REFERENCES customers
+);
+
+INSERT INTO customers
+    (first_name,last_name,email,address,city,state,zipcode)
+    VALUES
+    (&apos;George&apos;,&apos;Washington&apos;,&apos;gwashington@usa.gov&apos;,&apos;3200 Mt Vernon Hwy&apos;,&apos;Mount Vernon&apos;,&apos;VA&apos;,22121),
+    (&apos;John&apos;,&apos;Adams&apos;,&apos;jadams@usa.gov&apos;,&apos;1250 Hancock St&apos;,&apos;Quincy&apos;,&apos;MA&apos;,02169),
+    (&apos;Thomas&apos;,&apos;Jefferson&apos;,&apos;tjefferson@usa.gov&apos;,&apos;931 Thomas Jefferson Pkwy&apos;,&apos;Charlottesville&apos;,&apos;VA&apos;,22902),
+    (&apos;James&apos;,&apos;Madison&apos;,&apos;jmadison@usa.gov&apos;, &apos;11350 Constitution Hwy Orange&apos;, &apos;Orange&apos;, &apos;VA&apos;, 22960 ),
+    (&apos;James&apos;, &apos;Monroe&apos;, &apos;jmonroe@usa.gov&apos;, &apos;2050 James Monroe Parkway&apos;, &apos;Charlottesville&apos;, &apos;VA&apos;, 22902 );
+
+INSERT INTO orders
+    (order_date,AMOUNT,customer_id)
+    VALUES
+    (&apos;07/04/1776&apos;,&apos;234.56&apos;,1),
+    (&apos;03/14/1760&apos;,&apos;78.50&apos;,3),
+    (&apos;05/23/1784&apos;,&apos;124.00&apos;,2),
+    (&apos;09/03/1790&apos;,&apos;65.50&apos;,4),
+    (&apos;07/21/1795&apos;,&apos;25.50&apos;,1),
+    (&apos;11/27/1787&apos;,&apos;14.40&apos;,5);
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="postgres.html" class="navigation navigation-prev " aria-label="Previous page: postgres">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="vagrantdev.html" class="navigation navigation-next " aria-label="Next page: vagrantdev">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"postgresql-shell","level":"1.6","depth":1,"next":{"title":"vagrantdev","level":"1.7","depth":1,"path":"vagrantdev.md","ref":"vagrantdev.md","articles":[]},"previous":{"title":"postgres","level":"1.5","depth":1,"path":"postgres.md","ref":"postgres.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"postgresql-shell.md","mtime":"2018-02-22T02:47:27.349Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-23T06:00:21.849Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

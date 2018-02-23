@@ -1,0 +1,562 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>postgres · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="postgresql-shell.html" />
+    
+    
+    <link rel="prev" href="mysql.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="relational.html">
+            
+                <a href="relational.html">
+            
+                    
+                    relational
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="normalization.html">
+            
+                <a href="normalization.html">
+            
+                    
+                    normalization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="mysql.html">
+            
+                <a href="mysql.html">
+            
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="postgres.html">
+            
+                <a href="postgres.html">
+            
+                    
+                    postgres
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="postgresql-shell.html">
+            
+                <a href="postgresql-shell.html">
+            
+                    
+                    postgresql-shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="vagrantdev.html">
+            
+                <a href="vagrantdev.html">
+            
+                    
+                    vagrantdev
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="install-mysql-windows.html">
+            
+                <a href="install-mysql-windows.html">
+            
+                    
+                    install-mysql-windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="install-mysql-workbench-win.html">
+            
+                <a href="install-mysql-workbench-win.html">
+            
+                    
+                    install-mysql-workbench-win
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="summary-mysql-command.html">
+            
+                <a href="summary-mysql-command.html">
+            
+                    
+                    summary-mysql-command
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="example1-sampledatabase.html">
+            
+                <a href="example1-sampledatabase.html">
+            
+                    
+                    example1-sampledatabase
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="example2-employee.html">
+            
+                <a href="example2-employee.html">
+            
+                    
+                    example2-employee
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="example3-sale.html">
+            
+                <a href="example3-sale.html">
+            
+                    
+                    example3-sale
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="example4-university.html">
+            
+                <a href="example4-university.html">
+            
+                    
+                    example4-university
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="mysql-cluster.html">
+            
+                <a href="mysql-cluster.html">
+            
+                    
+                    mysql-cluster
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="mysql-remoteuser.html">
+            
+                <a href="mysql-remoteuser.html">
+            
+                    
+                    mysql-remoteuser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="mysql-backup.html">
+            
+                <a href="mysql-backup.html">
+            
+                    
+                    mysql-backup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="normalizationexample.html">
+            
+                <a href="normalizationexample.html">
+            
+                    
+                    normalizationexample
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="workshop-mysql.html">
+            
+                <a href="workshop-mysql.html">
+            
+                    
+                    workshop-mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >postgres</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="install-postgresql-10-on-centos-7">Install PostgreSQL 10 on CentOS 7</h2>
+<p><img src="assets/use-postgresql-on-centos-7-title.png" alt=""></p>
+<h4 id="&#xE15;&#xE34;&#xE14;&#xE15;&#xE31;&#xE49;&#xE07;-postgresql-10-&#xE1A;&#xE19;-centos-7">&#xE15;&#xE34;&#xE14;&#xE15;&#xE31;&#xE49;&#xE07; postgresql 10 &#xE1A;&#xE19; centos 7</h4>
+<p>&#xE40;&#xE1E;&#xE34;&#xE48;&#xE21; repository repo &#xE41;&#xE25;&#xE30;&#xE15;&#xE34;&#xE14;&#xE15;&#xE31;&#xE49;&#xE07;</p>
+<pre><code>    sudo su -
+    yum update -y
+    yum install vim
+    wget https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-centos10-10-1.noarch.rpm
+    rpm -ivh pgdg-centos10-10-1.noarch.rpm
+    yum install -y postgresql10-server postgresql10 postgresql10-contrib
+</code></pre><h4 id="initialize-postgres-server">Initialize postgres Server</h4>
+<pre><code>    /usr/pgsql-10/bin/postgresql-10-setup initdb
+
+    Initializing database ... OK
+
+    ls -l /var/lib/pgsql/10
+
+    total 8
+    drwx------.  2 postgres postgres    6 Feb  6 16:58 backups
+    drwx------. 20 postgres postgres 4096 Feb 13 14:01 data
+    -rw-------.  1 postgres postgres  875 Feb 13 14:01 initdb.log
+</code></pre><h4 id="start-server">Start server</h4>
+<pre><code>    systemctl start postgresql-10
+    systemctl enable postgresql-10
+    systemctl status postgresql-10
+
+    ss -tulan | grep 5432
+
+    tcp    LISTEN     0      128    127.0.0.1:5432                  *:*
+    tcp    LISTEN     0      128     ::1:5432                 :::*
+</code></pre><h4 id="enable-firewall">Enable firewall</h4>
+<pre><code>    systemctl start firewalld
+    systemctl enable firewalld
+    firewall-cmd --permanent --add-service=postgresql
+    --or--
+    firewall-cmd --permanent --add-port=5432/tcp
+    firewall-cmd --reload
+</code></pre><h4 id="access-postgresql-command-prompt">Access PostgreSQL command prompt</h4>
+<p>&#xE42;&#xE14;&#xE22; default &#xE01;&#xE32;&#xE23;&#xE15;&#xE34;&#xE14;&#xE15;&#xE31;&#xE49;&#xE07;&#xE08;&#xE30;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;  user postgres &#xE01;&#xE32;&#xE23;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE42;&#xE14;&#xE22;&#xE01;&#xE32;&#xE23;&#xE40;&#xE1B;&#xE25;&#xE35;&#xE48;&#xE22;&#xE19; user &#xE40;&#xE1B;&#xE47;&#xE19; postgres
+&#xE41;&#xE25;&#xE30;&#xE43;&#xE0A;&#xE49;&#xE04;&#xE33;&#xE2A;&#xE31;&#xE48;&#xE07; psql (&#xE44;&#xE21;&#xE48;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE43;&#xE2A;&#xE48; password &#xE40;&#xE19;&#xE37;&#xE48;&#xE2D;&#xE07;&#xE08;&#xE32;&#xE01;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE43;&#xE19;&#xE42;&#xE2B;&#xE21;&#xE14; ident &#xE04;&#xE37;&#xE2D; user &#xE17;&#xE35;&#xE48; login &#xE08;&#xE30;&#xE15;&#xE49;&#xE2D;&#xE07;&#xE15;&#xE23;&#xE07;&#xE01;&#xE31;&#xE1A;
+&#xE35;user &#xE43;&#xE19;&#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;)</p>
+<pre><code>    getenv passwd  | grep postgres
+    postgres:x:26:26:PostgreSQL Server:/var/lib/pgsql:/bin/bash
+
+    su - postgres
+
+    -bash-4.2$ psql
+    psql (10.2)
+    Type &quot;help&quot; for help.
+
+    postgres=# \l
+
+    postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+    template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+              |          |          |             |             | postgres=CTc/postgres
+    template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+              |          |          |             |             | postgres=CTc/postgres
+
+
+    (&#xE15;&#xE31;&#xE49;&#xE07; password &#xE41;&#xE01;&#xE48; user postgres &#xE43;&#xE19; &#xE10;&#xE32;&#xE19;&#xE02;&#xE49;&#xE2D;&#xE21;&#xE39;&#xE25;)
+    postgres=# alter role postgres with password &apos;postgres&apos;;
+    ALTER ROLE
+
+    postgres=# \q
+    -bash-4.2$ exit
+    logout
+    (&#xE01;&#xE25;&#xE31;&#xE1A;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07; root)
+</code></pre><h4 id="change-mode-ident-to-md5">Change mode ident to md5</h4>
+<pre><code>    vim /var/lib/pgsql/10/data/pg_hba.conf
+
+    local   all             all                                     peer
+    host    all             all             127.0.0.1/32            ident
+    host    all             all             ::1/128                 ident
+</code></pre><p>&#xE40;&#xE1B;&#xE25;&#xE35;&#xE48;&#xE22;&#xE19;&#xE40;&#xE1B;&#xE47;&#xE19;</p>
+<pre><code>    local   all             all                                     md5
+    host    all             all             127.0.0.1/32            md5
+    host    all             all             ::1/128                 md5
+</code></pre><h4 id="allow-listen-to-all-interface">Allow listen to all interface</h4>
+<pre><code>    vim /var/lib/pgsql/10/data/postgresql.conf  +58
+    (&#xE1A;&#xE23;&#xE23;&#xE17;&#xE31;&#xE14;&#xE17;&#xE35;&#xE48; 58)
+    listen_addresses = &apos;*&apos;
+</code></pre><h4 id="restart">Restart</h4>
+<pre><code>    systemctl restart postgresql
+</code></pre><h4 id="set-postgres-password">Set postgres password</h4>
+<pre><code>    passwd postgres
+
+    Changing password for user postgres.
+    New password:
+    BAD PASSWORD: The password contains the user name in some form
+    Retype new password:
+    passwd: all authentication tokens updated successfully.
+</code></pre><h4 id="test-connect">Test connect</h4>
+<pre><code>    [root@localhost ~]# systemctl restart postgresql-10
+    [root@localhost ~]# psql -U postgres postgres
+    Password for user postgres:
+    psql (10.2)
+    Type &quot;help&quot; for help.
+
+    postgres=#
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="mysql.html" class="navigation navigation-prev " aria-label="Previous page: mysql">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="postgresql-shell.html" class="navigation navigation-next " aria-label="Next page: postgresql-shell">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"postgres","level":"1.5","depth":1,"next":{"title":"postgresql-shell","level":"1.6","depth":1,"path":"postgresql-shell.md","ref":"postgresql-shell.md","articles":[]},"previous":{"title":"mysql","level":"1.4","depth":1,"path":"mysql.md","ref":"mysql.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"postgres.md","mtime":"2018-02-19T15:25:30.654Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-02-23T06:00:21.849Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
